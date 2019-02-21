@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/textNis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11705978"
+        android:textColor="@color/colorPrimary"
+        android:textStyle=""
+        android:textAllCaps="true"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ariq Heritsa"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingStart="16dp"
+        android:paddingBottom="16dp"/>
+
+</LinearLayout>
